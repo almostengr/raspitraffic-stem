@@ -8,3 +8,21 @@
 * Wire Gauge and Colors
 
 ----
+
+## High Voltage and Low Voltage
+
+
+---- 
+## AC (Alternating Current) and DC (Direct Current)
+
+---- 
+
+## Series and Parallel Circuits
+
+----
+
+## Relays (Naturally Open and Closed)
+
+----
+
+## Wire Gauge and Colors
