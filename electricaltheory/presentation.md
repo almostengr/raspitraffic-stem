@@ -8,8 +8,7 @@ and relays.
 This document is designed to function as a presentation. 
 
 ## TOPICS
-### High (120 and 240) vs Low (3.3 and 5) Voltage
-### AC (Alternating Current) and DC (Direct Current)
+### Alternating Current (AC) and Direct Current (DC)
 ### Series and Parallel Circuits 
 ### Relays (Naturally Open and Closed)
 ### Wire Gauge and Colors
@@ -23,46 +22,32 @@ This document is designed to function as a presentation.
 * Eletrons move back and forth (alternate) like liquid shaking in a bottle.
 * Has lower losses over longer distances.
 * Varies by country and continents
+* Typically 120, 240, or higher voltage
+* Can be deadly, regardless of amperage
+* Normally used in residential and commercial buildings
+* Examples: stove, refrigerator
 
 ### Direct Current (DC)
 
 * Electrons flow in one direction, like a one way street.
 * Has high losses over long distances
 * Mostly consistent in other countries and continents
+* Typically 3.3, 5, or 12 Voltage
+* Generally safe, but can be deadly at high amperage
+* Examples: cars, Raspberry Pi, electronics
 
-----
-
-## High Voltage and Low Voltage
-
-### High Voltage Characteristics
-
-* 120 or 240 Volts
-* Typically AC
-* Normally used in residential and commercial buildings
-* Examples: stove, refrigerator
-* Can be deadly, regardless of amperage
-
-### Low Voltage Characteristics 
-
-* 3.3, 5, or 12 Volts
-* Typically DC
-* Normally used in electronics, automobiles, 
-* Examples: radios, cars, Raspberry Pi
-* If able to use high voltage, has "power brick"
-* Generally safe, but Can be deadly at high amperage
-
-### High Voltage Components in Traffic Lights
+### AC Components in Traffic Light system
 
 * Signals
 * Relays
 
-### Low Voltage Components in Traffic Lights
+### DC Components in Traffic Light system
 
 * Traffic light controller (Raspberry Pi)
 * Sensors
 * Relays
 
-### Is it High or Low Voltage? 
+### Does it use AC or DC Voltage?
 
 * Doorbell
 * Cell phone
@@ -72,14 +57,6 @@ This document is designed to function as a presentation.
 * Lamp
 * Television
 * Router
-
-### 
-
----- 
-
-## AC (Alternating Current) and DC (Direct Current)
-
-
 
 ---- 
 
