@@ -11,13 +11,25 @@
 
 ## High Voltage and Low Voltage
 
+### High Voltage Characteristics
+
+* 120V and 240V are most common in residential and commerical 
+* Examples: stove, refrigerator, 
 
 ---- 
+
 ## AC (Alternating Current) and DC (Direct Current)
+
+
 
 ---- 
 
 ## Series and Parallel Circuits
+
+* Series
+** First light is connected to second, second connected to third, etc.
+** Example: Christmas Lights 
+
 
 ----
 
