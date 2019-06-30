@@ -164,7 +164,7 @@ command is executed.
 ----
 
 ## Acknowledgements
-* Author: Kenny Robinson, Almost Engineer @almostengr
+* Author: Kenny Robinson, Almost Engineer @almostengr; [http://thealmostengineer.com](http://thealmostengineer.com)
 * LCD Display code for controlling the LCD display were provided from 
 https://github.com/the-raspberry-pi-guy/lcd. 
 * Attempts to replicate the Traffic Light Simulation created by Samuel Vidal 
