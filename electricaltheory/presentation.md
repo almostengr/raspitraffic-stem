@@ -7,11 +7,11 @@ and relays.
 
 This document is designed to function as a presentation. 
 
-## TOPICS
-### Alternating Current (AC) and Direct Current (DC)
-### Series and Parallel Circuits 
-### Relays (Naturally Open and Closed)
-### Wire Gauge and Colors
+## Topics
+* Alternating Current (AC) and Direct Current (DC)
+* Series and Parallel Circuits 
+* Relays
+* Wire Gauge and Colors
 
 ----
 
@@ -36,17 +36,6 @@ This document is designed to function as a presentation.
 * Generally safe, but can be deadly at high amperage
 * Examples: cars, Raspberry Pi, electronics
 
-### AC Components in Traffic Light system
-
-* Signals
-* Relays
-
-### DC Components in Traffic Light system
-
-* Traffic light controller (Raspberry Pi)
-* Sensors
-* Relays
-
 ### Does it use AC or DC Voltage?
 
 * Doorbell
@@ -58,9 +47,10 @@ This document is designed to function as a presentation.
 * Television
 * Router
 
-### AC-DC Discussion 
+### Traffic Light Implementation
 
-* Connecting AC to DC
+* Identify AC Components
+* Identify DC Components
 
 ----
 
@@ -69,14 +59,14 @@ This document is designed to function as a presentation.
 ### Series Circuit
 
 * First light is connected to second, second connected to third, etc.
-* If one light is defective, then other lights will be inoperable or malfunction
+* If one light is defective, then other lights will be inoperable or malfunction.
 * Example: Christmas Lights 
 
 ### Parallel Circuit
 
 * All lights connected to common source
-* If one light is defective, then other lights still operate without problem
-* Example: Brake lights
+* If one light is defective, then other lights still operate.
+* Example: Brake Lights
 
 ### Factors for Series vs Parallel
 
@@ -84,25 +74,37 @@ This document is designed to function as a presentation.
 * Cost
 * Wiring
 
+### Traffic Light Implementation
+
+* Discussion
+
 ----
 
-## Relays (Naturally Open and Closed)
+## Relays
 
 * Fancy name for "electrical controlled switch"
-* Single post, double (dual post)
 * Used for controlling different current types
 * Used for controlling different amperages
-
-### Traffic light implementation
-
-* Used by the controller to switch the signals
-* Controller is 5VDC, lights are 120VAC
-* Controller is 5VDC and can switch 5VDC
+* Run current from one circuit, to energize another circuit
 
 ### NO (Naturally Open) and NC (Naturally Closed) 
 
 * Naturally Open relays complete the circuit when a signal is received.
 * Naturally Closed relays complete the circuit unless a signal is received.
+
+### Common Relay Types: SPST, SPDT, DPST, DPDT
+
+* Single Pole, Single Throw (headlight relay)
+* Single Pole, Double Throw (turn signal)
+* Double Pole, Single Throw (2 SPST controlled by one switch)
+* Double Pole, Double Throw (motor)
+
+### Traffic Light Implementation
+
+* Used by the controller to switch the signals on and off
+* Controller is 5VDC, lights are 120VAC
+* Controller is 5VDC and can switch 5VDC
+* Reach relay is SPDT
 
 ----
 
