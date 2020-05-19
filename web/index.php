@@ -77,8 +77,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	<optgroup label="Steady On/Off">
 		<option value="all_on" <?php $_POST['action']=="all_on" ? print 'selected="selected"' : false; ?>>All On</option>
 		<option value="redon" <?php $_POST['action']=="redon" ? print 'selected="selected"' : false; ?>>Red On</option>
+		<option value="redyellowon" <?php $_POST['action']=="redyellowon" ? print 'selected="selected"' : false; ?>>Red/Yellow On</option>
 		<option value="yellowon" <?php $_POST['action']=="yellowon" ? print 'selected="selected"' : false; ?>>Yellow On</option>
+		<option value="yellowgreenon" <?php $_POST['action']=="yellowgreenon" ? print 'selected="selected"' : false ?>>Yellow/Green On</option>
 		<option value="greenon" <?php $_POST['action']=="greenon" ? print 'selected="selected"' : false; ?>>Green On</option>
+		<option value="greenredon" <?php $_POST['action']=="greenredon" ? print 'selected="selected"' : false; ?>>Green/Red On</option>
 		<option value="all_off" <?php $_POST['action']=="all_off" ? print 'selected="selected"' : false; ?>>All Off</option>
 	</optgroup>
 	<optgroup label="Games">
